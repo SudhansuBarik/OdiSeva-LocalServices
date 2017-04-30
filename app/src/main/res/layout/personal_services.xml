@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <TableRow>
+
+            <FrameLayout style="@style/Services_Frame_Layout">
+
+                <LinearLayout
+                    android:id="@+id/interior_design"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--style="@style/Services_ImageView"-->
+                    <!--android:src="@drawable/house" />-->
+
+                    <TextView
+                        style="@style/SubServices_Text"
+                        android:text="Packers and Movers"
+                        android:textColor="#2196F3" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#2196F3" />
+
+            <FrameLayout style="@style/Services_Frame_Layout">
+
+                <LinearLayout
+                    android:id="@+id/pest_control"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--style="@style/Services_ImageView"-->
+                    <!--android:src="@drawable/hammer" />-->
+
+                    <TextView
+                        style="@style/SubServices_Text"
+                        android:text="Driver on Demand"
+                        android:textColor="#2196F3" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#2196F3" />
+
+            <FrameLayout style="@style/Services_Frame_Layout">
+
+                <LinearLayout
+                    android:id="@+id/home_deep_cleaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--style="@style/Services_ImageView"-->
+                    <!--android:src="@drawable/calendar" />-->
+
+                    <TextView
+                        style="@style/SubServices_Text"
+                        android:text="Monthly Tiffin Services"
+                        android:textColor="#2196F3" />
+                </LinearLayout>
+            </FrameLayout>
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2196F3" />
+
+        <TableRow>
+
+            <FrameLayout style="@style/Services_Frame_Layout">
+
+                <LinearLayout
+                    android:id="@+id/bathroom_deep_cleaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--style="@style/Services_ImageView"-->
+                    <!--android:src="@drawable/camcorder" />-->
+
+                    <TextView
+                        style="@style/SubServices_Text"
+                        android:text="Astrologer"
+                        android:textColor="#2196F3" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#2196F3" />
+
+            <FrameLayout style="@style/Services_Frame_Layout">
+
+                <LinearLayout
+                    android:id="@+id/dry_cleaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--style="@style/Services_ImageView"-->
+                    <!--android:src="@drawable/caduceus" />-->
+
+                    <TextView
+                        style="@style/SubServices_Text"
+                        android:text="Dry Cleaning"
+                        android:textColor="#2196F3" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#2196F3" />
+
+            <FrameLayout style="@style/Services_Frame_Layout">
+
+                <LinearLayout
+                    android:id="@+id/house_painters"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--style="@style/Services_ImageView"-->
+                    <!--android:src="@drawable/brush" />-->
+
+                    <TextView
+                        style="@style/SubServices_Text"
+                        android:text="Priest"
+                        android:textColor="#2196F3" />
+                </LinearLayout>
+            </FrameLayout>
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2196F3" />
+
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mypc.odiseva_localservices">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Splash Screen Activity -->
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Initiates Home Care Services Activity -->
+        <activity
+            android:name=".HomeCareServicesActivity"
+            android:label="Home Care Services">
+            <!-- Parent Activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- Initiates Repairs and Maintenance Activity -->
+        <activity
+            android:name=".RepairsAndMaintenanceActivity"
+            android:label="Repairs and Maintenance">
+            <!-- Parent Activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- Initiates Events Management Activity -->
+        <activity
+            android:name=".EventsManagementActivity"
+            android:label="Events Management">
+            <!-- Parent Activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- Initiates Personal Services Activity -->
+        <activity
+            android:name=".PersonalServicesActivity"
+            android:label="Personal Services">
+            <!-- Parent Activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- Initiates Health and Wellness Activity -->
+        <activity
+            android:name=".HealthAndWellnessActivity"
+            android:label="Health and Wellness">
+            <!-- Parent Activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- Initiates Beauty Services Activity -->
+        <activity
+            android:name=".BeautyServicesActivity"
+            android:label="Beauty Services">
+            <!-- Parent Activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- Initiates Tour Services Activity -->
+        <activity
+            android:name=".TourServicesActivity"
+            android:label="Tour Services">
+            <!-- Parent Activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <!-- Initiates Hobbies and Interests Activity -->
+        <activity
+            android:name=".HobbiesAndInterestsActivity"
+            android:label="Hobbies and Interests">
+            <!-- Parent Activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

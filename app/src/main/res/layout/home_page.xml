@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:background="#FFFFFF"
+        tools:context="com.example.mypc.odiseva_localservices.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF7DA"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00ff00">
+
+                <TextView
+                    android:id="@+id/location_text"
+                    style="@style/LocationTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/your_location" />
+
+                <TextView
+                    android:id="@+id/gps_location"
+                    style="@style/LocationTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/location_text"
+                    android:background="#ffffff"
+                    android:textColor="#000000"
+                    android:hint="Keonjhar"
+                    android:textAlignment="textEnd" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/location_text"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="8dp"
+                        android:paddingEnd="8dp"
+                        android:paddingStart="8dp"
+                        android:paddingTop="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/search_black" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginTop="1dp"
+                        android:background="@android:color/darker_gray" />
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:hint="@string/search"
+                            android:textSize="14sp" />
+                    </FrameLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white">
+
+                <TableRow>
+
+                    <FrameLayout style="@style/Services_Frame_Layout">
+
+                        <LinearLayout
+                            android:id="@+id/home_care_services"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/Services_ImageView"
+                                android:src="@drawable/house" />
+
+                            <TextView
+                                style="@style/Services_TextView"
+                                android:text="Home Care Services" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray" />
+
+                    <FrameLayout style="@style/Services_Frame_Layout">
+
+                        <LinearLayout
+                            android:id="@+id/repair_and_maintenance"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/Services_ImageView"
+                                android:src="@drawable/hammer" />
+
+                            <TextView
+                                style="@style/Services_TextView"
+                                android:text="Repairs and Maintenance" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray" />
+
+                    <FrameLayout style="@style/Services_Frame_Layout">
+
+                        <LinearLayout
+                            android:id="@+id/events_management"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/Services_ImageView"
+                                android:src="@drawable/calendar" />
+
+                            <TextView
+                                style="@style/Services_TextView"
+                                android:text="Events Management" />
+                        </LinearLayout>
+                    </FrameLayout>
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TableRow>
+
+                    <FrameLayout style="@style/Services_Frame_Layout">
+
+                        <LinearLayout
+                            android:id="@+id/personal_services"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/Services_ImageView"
+                                android:src="@drawable/camcorder" />
+
+                            <TextView
+                                style="@style/Services_TextView"
+                                android:text="Personal Services" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray" />
+
+                    <FrameLayout style="@style/Services_Frame_Layout">
+
+                        <LinearLayout
+                            android:id="@+id/health_and_wellness"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/Services_ImageView"
+                                android:src="@drawable/caduceus" />
+
+                            <TextView
+                                style="@style/Services_TextView"
+                                android:text="Health and Wellness" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray" />
+
+                    <FrameLayout style="@style/Services_Frame_Layout">
+
+                        <LinearLayout
+                            android:id="@+id/beauty_services"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/Services_ImageView"
+                                android:src="@drawable/brush" />
+
+                            <TextView
+                                style="@style/Services_TextView"
+                                android:text="Beauty Services" />
+                        </LinearLayout>
+                    </FrameLayout>
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TableRow>
+
+                    <FrameLayout style="@style/Services_Frame_Layout">
+
+                        <LinearLayout
+                            android:id="@+id/tour_services"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/Services_ImageView"
+                                android:src="@drawable/tour" />
+
+                            <TextView
+                                style="@style/Services_TextView"
+                                android:text="Tour Services" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray" />
+
+                    <FrameLayout style="@style/Services_Frame_Layout">
+
+                        <LinearLayout
+                            android:id="@+id/hobbies_and_interests"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                style="@style/Services_ImageView"
+                                android:src="@drawable/guitar" />
+
+                            <TextView
+                                style="@style/Services_TextView"
+                                android:text="Hobbies and Interests" />
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray" />
+
+                    <FrameLayout style="@style/Services_Frame_Layout">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:orientation="vertical">
+
+
+                        </LinearLayout>
+                    </FrameLayout>
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/Helping_Hands_Heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:padding="8dp"
+                    android:text="helping hands"
+                    android:textAllCaps="true" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="2"
+                        android:background="#009688"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/form_fillup_assist"
+                            style="@style/Helping_Hands_TextViews"
+                            android:text="Form Fill-up Assistance" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="2"
+                        android:background="#009688"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/ticket_booking"
+                            style="@style/Helping_Hands_TextViews"
+                            android:text="Ticket Booking" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="2"
+                        android:background="#009688"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/postage_and_handling"
+                            style="@style/Helping_Hands_TextViews"
+                            android:text="Postage and Handling" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="2"
+                        android:background="#009688"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/offline_bill_payment"
+                            style="@style/Helping_Hands_TextViews"
+                            android:text="Offline Bill Payment" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="2"
+                        android:background="#009688"
+                        android:padding="8dp">
+
+                        <TextView
+                            android:id="@+id/others"
+                            style="@style/Helping_Hands_TextViews"
+                            android:text="Others" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFFF"
+                        android:padding="8dp">
+
+                        <TextView style="@style/Helping_Hands_TextViews" />
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

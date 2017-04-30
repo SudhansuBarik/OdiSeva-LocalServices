@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <TableRow>
+
+            <FrameLayout style="@style/Services_Frame_Layout">
+
+                <LinearLayout
+                    android:id="@+id/interior_design"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--style="@style/Services_ImageView"-->
+                    <!--android:src="@drawable/house" />-->
+
+                    <TextView
+                        android:id="@+id/textView"
+                        style="@style/SubServices_Text"
+                        android:text="Guitar Lessons at Home"
+                        android:textColor="#009688" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#009688" />
+
+            <FrameLayout style="@style/Services_Frame_Layout">
+
+                <LinearLayout
+                    android:id="@+id/pest_control"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--style="@style/Services_ImageView"-->
+                    <!--android:src="@drawable/hammer" />-->
+
+                    <TextView
+                        style="@style/SubServices_Text"
+                        android:text="Bollywood Dance Classes"
+                        android:textColor="#009688" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#009688" />
+
+            <FrameLayout style="@style/Services_Frame_Layout">
+
+                <LinearLayout
+                    android:id="@+id/home_deep_cleaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--style="@style/Services_ImageView"-->
+                    <!--android:src="@drawable/calendar" />-->
+
+                    <TextView
+                        style="@style/SubServices_Text"
+                        android:text="Zumba Fitness Dance"
+                        android:textColor="#009688" />
+                </LinearLayout>
+            </FrameLayout>
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#009688" />
+
+        <TableRow>
+
+            <FrameLayout style="@style/Services_Frame_Layout">
+
+                <LinearLayout
+                    android:id="@+id/bathroom_deep_cleaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--style="@style/Services_ImageView"-->
+                    <!--android:src="@drawable/camcorder" />-->
+
+                    <TextView
+                        style="@style/SubServices_Text"
+                        android:layout_width="match_parent"
+                        android:text="Guitar Classes"
+                        android:textColor="#009688" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#009688" />
+
+            <FrameLayout style="@style/Services_Frame_Layout">
+
+                <LinearLayout
+                    android:id="@+id/dry_cleaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--style="@style/Services_ImageView"-->
+                    <!--android:src="@drawable/caduceus" />-->
+
+                    <TextView
+                        style="@style/SubServices_Text"
+                        android:text="Piano Classes"
+                        android:textColor="#009688" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#009688" />
+
+            <FrameLayout style="@style/Services_Frame_Layout">
+
+                <LinearLayout
+                    android:id="@+id/house_painters"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--style="@style/Services_ImageView"-->
+                    <!--android:src="@drawable/brush" />-->
+
+                    <TextView
+                        style="@style/SubServices_Text"
+                        android:text="Salsa Dance Classes"
+                        android:textColor="#009688" />
+                </LinearLayout>
+            </FrameLayout>
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#009688" />
+
+        <TableRow>
+
+            <FrameLayout style="@style/Services_Frame_Layout">
+
+                <LinearLayout
+                    android:id="@+id/construction_and_renovation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--style="@style/Services_ImageView"-->
+                    <!--android:src="@drawable/tour" />-->
+
+                    <TextView
+                        style="@style/SubServices_Text"
+                        android:text="Western Dance Classes"
+                        android:textColor="#009688" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#009688" />
+
+            <FrameLayout style="@style/Services_Frame_Layout">
+
+                <LinearLayout
+                    android:id="@+id/kitchen_remodelling"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--style="@style/Services_ImageView"-->
+                    <!--android:src="@drawable/guitar" />-->
+
+                    <TextView
+                        style="@style/SubServices_Text"
+                        android:text="Song Classes"
+                        android:textColor="#009688" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#009688" />
+
+            <FrameLayout style="@style/Services_Frame_Layout">
+
+                <LinearLayout
+                    android:id="@+id/carpet_cleaning"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<ImageView-->
+                    <!--style="@style/Services_ImageView"-->
+                    <!--android:src="@drawable/briefcase" />-->
+
+                    <TextView
+                        style="@style/SubServices_Text"
+                        android:text="Classical Instruments Classes"
+                        android:textColor="#009688" />
+                </LinearLayout>
+
+            </FrameLayout>
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#009688" />
+    </TableLayout>
+
+</ScrollView>
